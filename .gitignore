@@ -1,0 +1,89 @@
+# =========================
+# Rust / Cargo
+# =========================
+
+# Compiled output
+/target/
+
+# Cargo lock:
+# Keep Cargo.lock for binaries/apps
+# Ignore for libraries if you prefer reproducible deps handled by users
+# Remove the next line if this is an application project
+# Cargo.lock
+
+# Backup files created by rustfmt / editors
+**/*.rs.bk
+
+# =========================
+# IDE / Editor
+# =========================
+
+# VS Code
+.vscode/
+
+# JetBrains (CLion, IntelliJ, RustRover)
+.idea/
+*.iml
+
+# Neovim / Vim swap files
+*.swp
+*.swo
+*~
+
+# Emacs
+\#*\#
+.\#*
+
+# =========================
+# OS Files
+# =========================
+
+# Linux
+.Trash-*/
+.directory
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Logs / Temp
+# =========================
+
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Testing / Coverage
+# =========================
+
+coverage/
+tarpaulin-report.html
+
+# =========================
+# Build tools / Misc
+# =========================
+
+dist/
+build/
+out/
+
+# =========================
+# Optional: SQLite / local DB
+# Uncomment if used
+# =========================
+# *.db
+# *.sqlite
+# *.sqlite3
