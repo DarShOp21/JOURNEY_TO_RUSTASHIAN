@@ -3,7 +3,7 @@
 # =========================
 
 # Compiled output
-/target/
+/target
 
 # Cargo lock:
 # Keep Cargo.lock for binaries/apps
